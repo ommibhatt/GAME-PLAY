@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&family=Source+Serif+4:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D2E4FE;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.banner-text {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto; 
+  font-style: normal;
+  font-size: 18px; 
+  font-weight: 700;
+  line-height: normal;
+  color: #000; 
+  position: absolute;
+  top: 158px; 
+  left: 56px; 
+}
+
+.Description {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 24px; 
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+}
+
+.Tips-content {
+  font-family: "Source Serif 4", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: normal;
+  color: #000;
+  position: absolute;
+  top: 3068px; 
+  left: 85px; 
+}
+
+.main-container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  height: 45px;
+  width: auto;
+}
+
+.nav-bar {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 5px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li img {
+  height: 30px;
+  width: auto;
+}
+
+.banner-image {
+  width: 100%;  
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  z-index: -1; 
+}
+
+.game-logo {
+  position: absolute;
+  top: 229px;
+  left: 1011px;
+}
+
+.app-startup-anim {
+  position: absolute;
+  top: 564px;
+  left: 10%; 
+  transform: translateX(-40%); 
+}
+
+.gold {
+  position: absolute;
+  top: 627px;
+  left: 35%; 
+  transform: translateX(-40%); 
+}
+
+.immortal {
+  position: absolute;
+  top: 627px; 
+  left: 60%; 
+  transform: translateX(-40%);
+}
+
+.world-ranking {
+  position: absolute;
+  top: 564px;
+  left: 85%; 
+  transform: translateX(-40%);
+}
+
+.time-stamp {
+  position: absolute;
+  top: 582px;
+  left: 50%;
+  transform: translateX(-50%); 
+}
+
+.rank-progress {
+  position: absolute;
+  top: 1237px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.my-armory {
+  position: absolute;
+  top: 1429px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.armory-items {
+  position: absolute;
+  top: 1536px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.armory-items img {
+  width: 288px;
+  height: auto;
+  margin-left: 39px;
+}
+
+.armory-items img:first-child {
+  margin-right: 0;
+}
+
+.new-records{
+  position: absolute;
+  top: 2179px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.Records-item{
+  position: absolute;
+  top: 2284px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.Records-item img {
+  width: 288px;
+  height: auto;
+  margin-left: 98px;
+}
+
+.Records-item img:first-child {
+  margin-right: 202;
+}
+
+.tips{
+  position: absolute;
+  top: 2926px;
+  left: 50%; 
+  transform: translateX(-50%);
+}
+
+.OP{
+  position: absolute;
+  top: 3300px;
+  left: 75%; 
+}
+
+.LB{
+  position: absolute;
+  top: 3900px;
+  left: 60%; 
+}
+
+.x2x3{
+  position: absolute;
+  top: 4444px;
+  left: 50%;
+}
