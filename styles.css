@@ -243,7 +243,7 @@ footer {
   }
 
   nav ul li {
-    margin-left: 5px;
+    margin-left: 20px;
   }
 
   nav ul li img {
@@ -273,6 +273,7 @@ footer {
   .progress-section, .my-armory-section, .new-records-section, .tips-section {
     text-align: center;
     margin: 30px 0;
+  }
 
   .progress img, .my-armory img {
     width: 95%;
@@ -292,7 +293,7 @@ footer {
   }
 
   .tips-row .text {
-    font-size: 3.5vw;
+    font-size: 5vw;
     margin-bottom: 10px;
   }
 
@@ -302,7 +303,7 @@ footer {
   }
 
   .OP img, .LB img, .echoes img, .x2x3 img {
-    height: 25%;
+    height: 15%;
     margin-bottom: 10px;
   }
 }
