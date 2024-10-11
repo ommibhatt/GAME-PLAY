@@ -65,13 +65,13 @@ nav ul li img {
   position: absolute;
   bottom: 10%;
   left: 5%;
-  font-size: 24px;
+  font-size: 2vw;
   font-weight: 700;
   color: #000;
 }
 
 .Description {
-  font-size: 18px;
+  font-size: 1.6vw;
   line-height: 1.6;
   margin-top: 20px;
   padding-left: 5%;
@@ -80,9 +80,9 @@ nav ul li img {
 /* GAME LOGO POSITIONING */
 .game-logo img {
   position: absolute;
-  right: 6%;
-  top: 32%;
-  width: 15%;
+  right: 4%;
+  top: 15vw;
+  height: 14vw;
 }
 
 /* PROGRESS, ARMORY, NEW RECORDS, TIPS */
@@ -92,7 +92,7 @@ nav ul li img {
 }
 
 .progress img, .my-armory img {
-  width: 70%;
+  width: 78%;
   max-width: 1000px;
   height: auto;
 }
@@ -116,13 +116,13 @@ nav ul li img {
 }
 
 .tips-row .text {
-font-size: 16px;
+font-size: 1.5vw;
   flex: 1;
 }
 
 .OP img, .LB img, .echoes img, .x2x3 img {
-  width: 65%;
-  height: auto;
+  height: 40%;
+  width: auto;
 }
 
 /* FOOTER */
