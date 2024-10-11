@@ -124,10 +124,6 @@ font-size: 1.5vw;
   height: 40%;
   width: auto;
 }
-.OP img, .LB img, .echoes img, .x2x3 img {
-  height: 40%;
-  width: auto;
-}
 
 /* FOOTER */
 footer {
@@ -227,10 +223,6 @@ footer {
     width: 30%;
     height: auto;
   }
- 
-  .OP img, .LB img, .echoes img, .x2x3 img {
-    height: 30%;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -276,7 +268,7 @@ footer {
   }
 
   .progress img, .my-armory img {
-    width: 95%;
+    width: 80%;
   }
 
   .new-records img {
@@ -300,10 +292,5 @@ footer {
   .tips img {
     width: 20%;
     height: auto;
-  }
-
-  .OP img, .LB img, .echoes img, .x2x3 img {
-    height: 15%;
-    margin-bottom: 10px;
   }
 }
