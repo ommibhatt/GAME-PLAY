@@ -81,7 +81,7 @@ nav ul li img {
 .game-logo img {
   position: absolute;
   right: 4%;
-  top: 15vw;
+  top: 18vw;
   height: 14vw;
 }
 
@@ -131,4 +131,145 @@ footer {
   text-align: center;
   padding: 20px;
   font-size: 14px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+  .logo img {
+    height: 35px;
+  }
+
+  nav ul li img {
+    height: 25px;
+  }
+
+  .banner-text {
+    font-size: 2.5vw;
+  }
+
+  .Description {
+    font-size: 2vw;
+  }
+
+  .game-logo img {
+    height: 12vw;
+    top: 20vw;
+  }
+
+  .tips-row .text {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+    height: 50px;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  nav ul li {
+    margin-left: 10px;
+  }
+
+  nav ul li img {
+    height: 20px;
+  }
+
+  .banner-text {
+    font-size: 3vw;
+  }
+
+  .Description {
+    font-size: 2.5vw;
+    padding-left: 3%;
+  }
+
+  .game-logo img {
+    height: 14vw;
+    top: 22vw;
+    right: 3%;
+  }
+
+  .progress img, .my-armory img {
+    width: 90%;
+  }
+
+  .new-records img {
+    width: 60%;
+  }
+
+  .tips-content {
+    padding: 30px;
+  }
+
+  .tips-row .text {
+    font-size: 2.2vw;
+  }
+
+  .OP img, .LB img, .echoes img, .x2x3 img {
+    height: 30%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-bar {
+    height: 40px;
+  }
+
+  .logo img {
+    height: 25px;
+  }
+
+  nav ul li {
+    margin-left: 5px;
+  }
+
+  nav ul li img {
+    height: 15px;
+  }
+
+  .banner-text {
+    font-size: 4vw;
+  }
+
+  .Description {
+    font-size: 3.5vw;
+    padding-left: 2%;
+  }
+
+  .game-logo img {
+    height: 16vw;
+    top: 25vw;
+    right: 2%;
+  }
+
+  .progress img, .my-armory img {
+    width: 95%;
+  }
+
+  .new-records img {
+    width: 80%;
+  }
+
+  .tips-content {
+    padding: 15px;
+  }
+
+  .tips-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .tips-row .text {
+    font-size: 3.5vw;
+    margin-bottom: 10px;
+  }
+
+  .OP img, .LB img, .echoes img, .x2x3 img {
+    height: 25%;
+    margin-bottom: 10px;
+  }
 }
