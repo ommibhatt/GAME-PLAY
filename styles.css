@@ -120,6 +120,10 @@ font-size: 1.5vw;
   flex: 1;
 }
 
+.tips img {
+  height: 40%;
+  width: auto;
+}
 .OP img, .LB img, .echoes img, .x2x3 img {
   height: 40%;
   width: auto;
@@ -156,6 +160,11 @@ footer {
     top: 20vw;
   }
 
+  .tips img {
+    width: 40%;
+    height: auto;
+  }
+
   .tips-row .text {
     font-size: 1.8vw;
   }
@@ -178,12 +187,17 @@ footer {
     height: 20px;
   }
 
+  .banner {
+    position: relative;
+    margin-top: 40px;
+  }
+
   .banner-text {
-    font-size: 3vw;
+    font-size: 2.3vw;
   }
 
   .Description {
-    font-size: 2.5vw;
+    font-size: 1vw;
     padding-left: 3%;
   }
 
@@ -209,6 +223,11 @@ footer {
     font-size: 2.2vw;
   }
 
+  .tips img {
+    width: 30%;
+    height: auto;
+  }
+ 
   .OP img, .LB img, .echoes img, .x2x3 img {
     height: 30%;
   }
@@ -231,12 +250,17 @@ footer {
     height: 15px;
   }
 
+  .banner {
+    position: relative;
+    margin-top: 40px;  
+  }
+
   .banner-text {
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   .Description {
-    font-size: 3.5vw;
+    font-size: 2vw;
     padding-left: 2%;
   }
 
@@ -245,6 +269,10 @@ footer {
     top: 25vw;
     right: 2%;
   }
+
+  .progress-section, .my-armory-section, .new-records-section, .tips-section {
+    text-align: center;
+    margin: 30px 0;
 
   .progress img, .my-armory img {
     width: 95%;
@@ -266,6 +294,11 @@ footer {
   .tips-row .text {
     font-size: 3.5vw;
     margin-bottom: 10px;
+  }
+
+  .tips img {
+    width: 20%;
+    height: auto;
   }
 
   .OP img, .LB img, .echoes img, .x2x3 img {
