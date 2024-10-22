@@ -117,6 +117,12 @@ nav ul li img {
   width: auto;
 }
 
+.Tips-content{
+  font-size: 1.6vw;
+  line-height: 1.6;
+  padding-left: 5%;
+}
+
 /* FOOTER */
 footer {
   background-color: #FFFFFF;
@@ -205,8 +211,8 @@ footer {
     width: 60%;
   }
 
-.awards img {
-    width: 50%;
+  .awards img {
+    width: 60%;
     height: auto;
   }
 
@@ -214,6 +220,13 @@ footer {
     width: 30%;
     height: auto;
   }
+
+  .Tips-content{
+    font-size: 1.8vw;
+    line-height: 1.6;
+    padding-left: 3%;
+  }
+
 }
 
 @media screen and (max-width: 480px) {
@@ -266,8 +279,8 @@ footer {
     width: 60%;
   }
 
-.awards img {
-    width: 50%;
+  .awards img {
+    width: 70%;
     height: auto;
   }
 
@@ -275,4 +288,11 @@ footer {
     width: 20%;
     height: auto;
   }
+
+  .Tips-content{
+    font-size: 1.8vw;
+    line-height: 1.6;
+    padding-left: 2%;
+  }
+  
 }
