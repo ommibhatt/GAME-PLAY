@@ -85,7 +85,7 @@ nav ul li img {
   height: 14vw;
 }
 
-/* PROGRESS, ARMORY, NEW RECORDS, TIPS */
+/* PROGRESS, ARMORY, NEW RECORDS, AWARDS, TIPS */
 .progress-section, .my-armory-section, .new-records-section, .awards-section, .tips-section{
   text-align: center;
   margin: 120px 0;
@@ -103,14 +103,11 @@ nav ul li img {
     height: auto;
 }
 
-/* Awards Section */
 .awards img {
   width: 60%;
   max-width: 800px;
   height: auto;
 }
-
-/* TIPS SECTION */
 
 .tips img {
   height: 40%;
@@ -213,12 +210,10 @@ footer {
 
   .awards img {
     width: 60%;
-    height: auto;
   }
 
   .tips img {
     width: 30%;
-    height: auto;
   }
 
   .Tips-content{
@@ -266,7 +261,7 @@ footer {
     right: 2%;
   }
 
-  .progress-section, .my-armory-section, .new-records-section, .tips-section {
+  .progress-section, .my-armory-section, .new-records-section, .awards-section, .tips-section {
     text-align: center;
     margin: 30px 0;
   }
@@ -281,12 +276,10 @@ footer {
 
   .awards img {
     width: 70%;
-    height: auto;
   }
 
   .tips img {
     width: 20%;
-    height: auto;
   }
 
   .Tips-content{
